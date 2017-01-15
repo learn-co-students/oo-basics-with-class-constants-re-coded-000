@@ -7,6 +7,8 @@ describe 'Book' do
         book.genre = genre
       end
 
+
+
       genres.each do |genre|
         expect(Book::GENRES).to include(genre)
       end
